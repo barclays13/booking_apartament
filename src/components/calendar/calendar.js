@@ -137,7 +137,7 @@ export default class Calendar extends Component {
     const templateParams2 = await {
       message: message,
       to_name: data.name,
-      email: "zubarev.sergey.1993@gmail.com"
+      email: "info@itspro.by"
     };
 
     await emailjs
