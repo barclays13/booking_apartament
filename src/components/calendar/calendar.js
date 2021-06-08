@@ -19,7 +19,7 @@ export default class Calendar extends Component {
       nameMonth: 0,
       year: 0,
       arrNextDate: [],
-      url: "http://localhost:3000/",
+      url: "https://booking-apartament-js-zubarev.herokuapp.com/",
       data: {},
       cart: []
     }
@@ -82,7 +82,7 @@ export default class Calendar extends Component {
     })
 
     this.state.cart.forEach(elem => {
-      fetch(`http://localhost:3000/data`, {
+      fetch(`https://booking-apartament-js-zubarev.herokuapp.com/data`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json;charset=utf-8'
